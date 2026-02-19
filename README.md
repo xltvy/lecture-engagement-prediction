@@ -16,7 +16,7 @@ Two tasks are addressed:
 
 Features include linguistic rates (auxiliary verbs, pronouns, entropy), content metadata (duration, word count, freshness), speaker characteristics (speed, silence rate), and categorical labels (lecture type, subject domain).
 
-> Place the raw CSV at `data/lectures_dataset.csv` before running any code.
+> **Dataset not included.** The dataset was provided as part of a university coursework assignment (COMP0186, UCL) and is not redistributed here in line with the university's data sharing and intellectual property policies. If you have legitimate access to the dataset, place the CSV at `data/lectures_dataset.csv` before running any code.
 
 ## Repository Structure
 
@@ -38,7 +38,7 @@ lecture-engagement-prediction/
 │   └── train.py                # CLI entry point with argparse + reproducibility seed
 │
 ├── data/
-│   └── lectures_dataset.csv    # (not tracked by git — add your own copy)
+│   └── lectures_dataset.csv    # (not included — see Dataset section above)
 │
 └── results/
     └── figures/                # Plots saved by the notebook / train.py
